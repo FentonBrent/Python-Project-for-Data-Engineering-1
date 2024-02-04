@@ -1,0 +1,8 @@
+2024-Feb-04-14:08:42,ETL Job Started
+2024-Feb-04-14:08:42,Extract phase Started
+2024-Feb-04-14:08:42,Extract phase Ended
+2024-Feb-04-14:08:42,Transform phase Started
+2024-Feb-04-14:08:42,Transform phase Ended
+2024-Feb-04-14:08:42,Load phase Started
+2024-Feb-04-14:08:42,Load phase Ended
+2024-Feb-04-14:08:42,ETL Job Ended
