@@ -1,0 +1,2 @@
+2024-Feb-06-00:02:38 : Preliminaries complete. Initializing ETL process.
+2024-Feb-06-00:02:40 : Data extraction complete.
