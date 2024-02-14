@@ -11,7 +11,7 @@ url = 'https://web.archive.org/web/20230902185326/https://en.wikipedia.org/wiki/
 table_attribs = ["Country", "GDP_USD_millions"]
 db_name = 'World_Economies.db'
 table_name = 'Countries_by_GDP'
-csv_path = './Countries_by_GDP.csv'
+csv_path = 'Countries_by_GDP.csv'
 
 
 def extract(url, table_attribs):
@@ -58,7 +58,7 @@ def log_progress(message):
     timestamp_format = '%Y-%h-%d-%H:%M:%S'  # Year-Monthname-Day-Hour-Minute-Second
     now = datetime.now()  # get current timestamp
     timestamp = now.strftime(timestamp_format)
-    with open("./etl_project_log.txt", "a") as f:
+    with open("etl_project_log.txt", "a") as f:
         f.write(timestamp + ' : ' + message + '\n')
 
 
